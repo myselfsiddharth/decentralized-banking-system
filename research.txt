@@ -1,0 +1,37 @@
+reasearch.txt
+
+ Chapter 1
+INTRODUCTION
+
+1.1 Introduction to Domain/Area and Motivation
+
+Using various forms of currency to buy or sell goods or services has long been a fundamental aspect of human society. with the first evidence in human history taking place in
+Mesopotamia approximately 5000 years ago. Since then the concept of transaction/currencies used to buy or sell goods and services has evolved over time. Fundamentally this concept of the transaction to use some sort of currency was done on the basis of trust and was overseen by some or the other central agencies. Even though in recent times technology has been developed for transparent and more secure transactions yet such transactions are some or the other way involved to trust many third-party entities to execute this transaction. This involvement of third-party entities in the transaction conceives trust issues for their transaction and the money involved. So to eliminate these issues of the existing traditional transaction system blockchain technology can be very useful. And as in the Traditional transaction system bank plays a very important role and gives the user benefits in the form of interest for depositing their money in their bank along with some security and storage for their assets. In the same way, the decentralized bank application will allow the users to deposit their ethers in the bank and would get a specific amount of ethers during their withdrawal of the ethers from the bank.
+
+1.2 Problem Statement 
+
+The aim of this project is to implement a decentralized and secure bank application/system eliminating the need for the trust of third parties and also eliminating the issues and challenges of the traditional bank system like agility, and the high fees associated with it. The objectives of the project are that the user is able to deposit their ethers into the bank application and while withdrawing the user would get back their ethers and the interest associated with it in ethers. The user will also be able to give collateral on the loan amount borrowed and pay off the loan and get the collateral amount back. 
+
+1.3 Proposed Solution
+
+Decentralized bank provides the functionalities of Deposit, Withdraw, Borrow and Payoff. These functionalities are provided to the user using metamask and Ganache. Here, React app is connected with the MetaMask on the web browser and the MetaMask is connected to the Ganache account which provides the ethers for carrying out the transactions. So as soon as the user tries performing the above mentioned functionalities, the metamask needs to be logged in and the user needs to confirm the transaction to get it done. As soon as the user clicks on confirm, the respective operation gets performed and the amount gets debited/credited from the ganache account.
+
+
+
+1.4 Organization of the Report 
+
+The rest of the report is organized as follows. Chapter 2 presents the summary of the literature review carried out.  Chapter 3 discusses the system design of the proposed model. In Chapter 4, we present the results and implementation steps for the system. And finally, Chapter 5 includes the conclusion followed by references. 
+
+
+Chapter 2
+LITERATURE REVIEW
+
+The paper [1], gives an overview of the decentralized finance subject matter. The paper provides an explanation of the DeFi concept's history, development, and applications in real-world settings. Additionally, it emphasizes the traits of the DeFi idea, the creation and issuing of Asset Tokenization, as well as the procedure of payments, deposits, loans, exchanges, etc. in a Defi Environment. Additionally, it gave a DeFi solution that would increase transparency and make it simpler to buy insurance, reducing and eliminating the flaws in the present insurance industry.
+This research [2] proposes that blockchains could revolutionize the underlying technology of the payment clearing and credit information systems in banks, thus upgrading and transforming them. Blockchain applications also promote the formation of multi-center, weakly intermediated scenarios, which will enhance the efficiency of the banking industry. It resolves several existing problems in the banking industry like Customer experience, efficiency, cost, and safety.
+ As shown in Table 1 below, we provide the summarized survey results from the research papers studied.
+
+Table 1: Summary of Literature Survey
+Ref No.	Methodology	Analysis
+[1]	DeFi: Decentralized Finance - An Introduction and Overview. Patrick Schueffel1,Vol. 9 No. 3 (2021),Nov 27, 2021.	 This paper provides an overview of Defi (Decentralized Finance), highlights its features, benefits, and drawbacks, and describes its peer-to-peer network technologies.
+[2]	Blockchain application and outlook in the banking industry. Guo, Y., Liang, C. Financ Innov 2, 24 (2016). 	This paper proposes that Blockchain technology is a type of underlying technology that can connect with various scenarios. It can achieve asset digitization and point-to-point value transfer, thereby reconstructing the financial infrastructure.
+
